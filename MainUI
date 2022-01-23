@@ -1,0 +1,708 @@
+-- Instances:
+
+local Executor = Instance.new("ScreenGui")
+local DragThing = Instance.new("Frame")
+local Executor_2 = Instance.new("Frame")
+local Executor_3 = Instance.new("TextBox")
+local Title = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local FakeTextBoxSide = Instance.new("Frame")
+local FakeTextBoxTop = Instance.new("Frame")
+local ExecButton = Instance.new("TextButton")
+local CopyInv = Instance.new("TextButton")
+local Clr = Instance.new("TextButton")
+local ScriptHub = Instance.new("ScrollingFrame")
+local Reanim = Instance.new("TextButton")
+local Fextendo = Instance.new("TextButton")
+local Sussy = Instance.new("TextButton")
+local Yourmom = Instance.new("TextButton")
+local Mech = Instance.new("TextButton")
+local Sniper = Instance.new("TextButton")
+local Hoverboard = Instance.new("TextButton")
+local KBot = Instance.new("TextButton")
+local Stando = Instance.new("TextButton")
+local Extendo = Instance.new("TextButton")
+local Katana = Instance.new("TextButton")
+local Bob = Instance.new("TextButton")
+local Car = Instance.new("TextButton")
+local MechArm = Instance.new("TextButton")
+local Spooder = Instance.new("TextButton")
+local Scythe = Instance.new("TextButton")
+local FAngel = Instance.new("TextButton")
+local BiggusDickus = Instance.new("TextButton")
+local Attach = Instance.new("TextButton")
+local Status = Instance.new("TextLabel")
+
+--Properties:
+
+Executor.Name = "Executor"
+Executor.Parent = game.CoreGui
+Executor.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Executor.ResetOnSpawn = false
+
+DragThing.Name = "DragThing"
+DragThing.Parent = Executor
+DragThing.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DragThing.BackgroundTransparency = 1.000
+DragThing.Position = UDim2.new(0.113402061, 0, 0.481729567, 0)
+DragThing.Size = UDim2.new(0, 427, 0, 28)
+
+Executor_2.Name = "Executor"
+Executor_2.Parent = DragThing
+Executor_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Executor_2.BorderSizePixel = 0
+Executor_2.Position = UDim2.new(-0.000694282353, 0, -0.0239672065, 0)
+Executor_2.Size = UDim2.new(0, 427, 0, 245)
+
+Executor_3.Name = "Executor"
+Executor_3.Parent = Executor_2
+Executor_3.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Executor_3.BorderSizePixel = 0
+Executor_3.Position = UDim2.new(0.0444964878, 0, 0.146808729, 0)
+Executor_3.Size = UDim2.new(0, 300, 0, 167)
+Executor_3.ClearTextOnFocus = false
+Executor_3.Font = Enum.Font.Code
+Executor_3.MultiLine = true
+Executor_3.Text = "-- FENIX MADE BY ANN0B1S, UI BY FANTOSCOPE"
+Executor_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Executor_3.TextSize = 14.000
+Executor_3.TextWrapped = true
+Executor_3.TextXAlignment = Enum.TextXAlignment.Left
+Executor_3.TextYAlignment = Enum.TextYAlignment.Top
+
+Title.Name = "Title"
+Title.Parent = Executor_2
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.0585480109, 0, 0, 0)
+Title.Size = UDim2.new(0, 139, 0, 29)
+Title.Font = Enum.Font.GothamBold
+Title.Text = "FEnix Executor"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 14.000
+
+ImageLabel.Parent = Title
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(-0.136690646, 0, 0.103448279, 0)
+ImageLabel.Size = UDim2.new(0, 25, 0, 23)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=8623862216"
+
+FakeTextBoxSide.Name = "FakeTextBoxSide"
+FakeTextBoxSide.Parent = Executor_2
+FakeTextBoxSide.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+FakeTextBoxSide.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FakeTextBoxSide.BorderSizePixel = 0
+FakeTextBoxSide.Position = UDim2.new(0.0304449648, 0, 0.142857149, 0)
+FakeTextBoxSide.Size = UDim2.new(0, 6, 0, 167)
+
+FakeTextBoxTop.Name = "FakeTextBoxTop"
+FakeTextBoxTop.Parent = Executor_2
+FakeTextBoxTop.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+FakeTextBoxTop.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FakeTextBoxTop.BorderSizePixel = 0
+FakeTextBoxTop.Position = UDim2.new(0.0320000015, 0, 0.119999997, 0)
+FakeTextBoxTop.Size = UDim2.new(0, 306, 0, 7)
+
+ExecButton.Name = "ExecButton"
+ExecButton.Parent = Executor_2
+ExecButton.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ExecButton.BorderSizePixel = 0
+ExecButton.Position = UDim2.new(0.0140515231, 0, 0.861224473, 0)
+ExecButton.Size = UDim2.new(0, 84, 0, 26)
+ExecButton.Font = Enum.Font.GothamBold
+ExecButton.Text = "Execute"
+ExecButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecButton.TextSize = 14.000
+
+CopyInv.Name = "CopyInv"
+CopyInv.Parent = Executor_2
+CopyInv.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+CopyInv.BorderSizePixel = 0
+CopyInv.Position = UDim2.new(0.533957899, 0, 0.861224473, 0)
+CopyInv.Size = UDim2.new(0, 84, 0, 26)
+CopyInv.Font = Enum.Font.GothamBold
+CopyInv.Text = "Copy Invite"
+CopyInv.TextColor3 = Color3.fromRGB(255, 255, 255)
+CopyInv.TextSize = 14.000
+
+Clr.Name = "Clr"
+Clr.Parent = Executor_2
+Clr.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Clr.BorderSizePixel = 0
+Clr.Position = UDim2.new(0.274004698, 0, 0.861224473, 0)
+Clr.Size = UDim2.new(0, 84, 0, 26)
+Clr.Font = Enum.Font.GothamBold
+Clr.Text = "Clear"
+Clr.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clr.TextSize = 14.000
+
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = Executor_2
+ScriptHub.Active = true
+ScriptHub.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+ScriptHub.BorderSizePixel = 0
+ScriptHub.Position = UDim2.new(0.765807986, 0, 0.118367344, 0)
+ScriptHub.Size = UDim2.new(0, 93, 0, 173)
+ScriptHub.CanvasPosition = Vector2.new(0, 300)
+ScriptHub.ScrollBarThickness = 0
+
+Reanim.Name = "Reanim"
+Reanim.Parent = ScriptHub
+Reanim.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Reanim.BorderSizePixel = 0
+Reanim.Size = UDim2.new(0, 93, 0, 23)
+Reanim.Font = Enum.Font.GothamBold
+Reanim.Text = "Reanimate"
+Reanim.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reanim.TextSize = 14.000
+
+Fextendo.Name = "Fextendo"
+Fextendo.Parent = ScriptHub
+Fextendo.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Fextendo.BorderSizePixel = 0
+Fextendo.Position = UDim2.new(-0.0107526882, 0, 0.0469387732, 0)
+Fextendo.Size = UDim2.new(0, 93, 0, 23)
+Fextendo.Font = Enum.Font.GothamBold
+Fextendo.Text = "Flying Extendo"
+Fextendo.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fextendo.TextSize = 10.000
+
+Sussy.Name = "Sussy"
+Sussy.Parent = ScriptHub
+Sussy.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Sussy.BorderSizePixel = 0
+Sussy.Position = UDim2.new(-0.0107526854, 0, 0.0938775465, 0)
+Sussy.Size = UDim2.new(0, 93, 0, 23)
+Sussy.Font = Enum.Font.GothamBold
+Sussy.Text = "Amogus"
+Sussy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sussy.TextSize = 14.000
+
+Yourmom.Name = "Your mom"
+Yourmom.Parent = ScriptHub
+Yourmom.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Yourmom.BorderSizePixel = 0
+Yourmom.Position = UDim2.new(0, 0, 0.140816316, 0)
+Yourmom.Size = UDim2.new(0, 93, 0, 23)
+Yourmom.Font = Enum.Font.GothamBold
+Yourmom.Text = "Baby Ogre"
+Yourmom.TextColor3 = Color3.fromRGB(255, 255, 255)
+Yourmom.TextSize = 14.000
+
+Mech.Name = "Mech"
+Mech.Parent = ScriptHub
+Mech.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Mech.BorderSizePixel = 0
+Mech.Position = UDim2.new(0, 0, 0.187755093, 0)
+Mech.Size = UDim2.new(0, 93, 0, 23)
+Mech.Font = Enum.Font.GothamBold
+Mech.Text = "Mech"
+Mech.TextColor3 = Color3.fromRGB(255, 255, 255)
+Mech.TextSize = 14.000
+
+Sniper.Name = "Sniper"
+Sniper.Parent = ScriptHub
+Sniper.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Sniper.BorderSizePixel = 0
+Sniper.Position = UDim2.new(-0.0107526882, 0, 0.23469387, 0)
+Sniper.Size = UDim2.new(0, 93, 0, 23)
+Sniper.Font = Enum.Font.GothamBold
+Sniper.Text = "Sniper"
+Sniper.TextColor3 = Color3.fromRGB(255, 255, 255)
+Sniper.TextSize = 14.000
+
+Hoverboard.Name = "Hoverboard"
+Hoverboard.Parent = ScriptHub
+Hoverboard.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Hoverboard.BorderSizePixel = 0
+Hoverboard.Position = UDim2.new(-0.0107526882, 0, 0.281632632, 0)
+Hoverboard.Size = UDim2.new(0, 93, 0, 23)
+Hoverboard.Font = Enum.Font.GothamBold
+Hoverboard.Text = "Hoverboard"
+Hoverboard.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hoverboard.TextSize = 14.000
+
+KBot.Name = "KBot"
+KBot.Parent = ScriptHub
+KBot.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+KBot.BorderSizePixel = 0
+KBot.Position = UDim2.new(-0.0107526882, 0, 0.328571409, 0)
+KBot.Size = UDim2.new(0, 93, 0, 23)
+KBot.Font = Enum.Font.GothamBold
+KBot.Text = "Killbot"
+KBot.TextColor3 = Color3.fromRGB(255, 255, 255)
+KBot.TextSize = 14.000
+
+Stando.Name = "Stando"
+Stando.Parent = ScriptHub
+Stando.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Stando.BorderSizePixel = 0
+Stando.Position = UDim2.new(-0.0107526882, 0, 0.375510186, 0)
+Stando.Size = UDim2.new(0, 93, 0, 23)
+Stando.Font = Enum.Font.GothamBold
+Stando.Text = "Stand"
+Stando.TextColor3 = Color3.fromRGB(255, 255, 255)
+Stando.TextSize = 14.000
+
+Extendo.Name = "Extendo"
+Extendo.Parent = ScriptHub
+Extendo.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Extendo.BorderSizePixel = 0
+Extendo.Position = UDim2.new(-0.0107526882, 0, 0.422448963, 0)
+Extendo.Size = UDim2.new(0, 93, 0, 23)
+Extendo.Font = Enum.Font.GothamBold
+Extendo.Text = "Extendo"
+Extendo.TextColor3 = Color3.fromRGB(255, 255, 255)
+Extendo.TextSize = 14.000
+
+Katana.Name = "Katana"
+Katana.Parent = ScriptHub
+Katana.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Katana.BorderSizePixel = 0
+Katana.Position = UDim2.new(-0.0107526882, 0, 0.46938774, 0)
+Katana.Size = UDim2.new(0, 93, 0, 23)
+Katana.Font = Enum.Font.GothamBold
+Katana.Text = "Katana"
+Katana.TextColor3 = Color3.fromRGB(255, 255, 255)
+Katana.TextSize = 14.000
+
+Bob.Name = "Bob"
+Bob.Parent = ScriptHub
+Bob.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Bob.BorderSizePixel = 0
+Bob.Position = UDim2.new(-0.0107526882, 0, 0.516326487, 0)
+Bob.Size = UDim2.new(0, 93, 0, 23)
+Bob.Font = Enum.Font.GothamBold
+Bob.Text = "Bob"
+Bob.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bob.TextSize = 14.000
+
+Car.Name = "Car"
+Car.Parent = ScriptHub
+Car.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Car.BorderSizePixel = 0
+Car.Position = UDim2.new(-0.0107526882, 0, 0.563265264, 0)
+Car.Size = UDim2.new(0, 93, 0, 23)
+Car.Font = Enum.Font.GothamBold
+Car.Text = "Car"
+Car.TextColor3 = Color3.fromRGB(255, 255, 255)
+Car.TextSize = 14.000
+
+MechArm.Name = "MechArm"
+MechArm.Parent = ScriptHub
+MechArm.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+MechArm.BorderSizePixel = 0
+MechArm.Position = UDim2.new(-0.0107526882, 0, 0.610204041, 0)
+MechArm.Size = UDim2.new(0, 93, 0, 23)
+MechArm.Font = Enum.Font.GothamBold
+MechArm.Text = "MechArm"
+MechArm.TextColor3 = Color3.fromRGB(255, 255, 255)
+MechArm.TextSize = 14.000
+
+Spooder.Name = "Spooder"
+Spooder.Parent = ScriptHub
+Spooder.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Spooder.BorderSizePixel = 0
+Spooder.Position = UDim2.new(-0.0107526882, 0, 0.657142818, 0)
+Spooder.Size = UDim2.new(0, 93, 0, 23)
+Spooder.Font = Enum.Font.GothamBold
+Spooder.Text = "Spider"
+Spooder.TextColor3 = Color3.fromRGB(255, 255, 255)
+Spooder.TextSize = 14.000
+
+Scythe.Name = "Scythe"
+Scythe.Parent = ScriptHub
+Scythe.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Scythe.BorderSizePixel = 0
+Scythe.Position = UDim2.new(-0.0107526882, 0, 0.704081595, 0)
+Scythe.Size = UDim2.new(0, 93, 0, 23)
+Scythe.Font = Enum.Font.GothamBold
+Scythe.Text = "Scythe"
+Scythe.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scythe.TextSize = 14.000
+
+FAngel.Name = "FAngel"
+FAngel.Parent = ScriptHub
+FAngel.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+FAngel.BorderSizePixel = 0
+FAngel.Position = UDim2.new(-0.0107526882, 0, 0.751020372, 0)
+FAngel.Size = UDim2.new(0, 93, 0, 23)
+FAngel.Font = Enum.Font.GothamBold
+FAngel.Text = "FallenAngel"
+FAngel.TextColor3 = Color3.fromRGB(255, 255, 255)
+FAngel.TextSize = 14.000
+
+BiggusDickus.Name = "Biggus Dickus"
+BiggusDickus.Parent = ScriptHub
+BiggusDickus.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+BiggusDickus.BorderSizePixel = 0
+BiggusDickus.Position = UDim2.new(-0.0107526882, 0, 0.797959149, 0)
+BiggusDickus.Size = UDim2.new(0, 93, 0, 23)
+BiggusDickus.Font = Enum.Font.GothamBold
+BiggusDickus.Text = "Big Juicy Cock"
+BiggusDickus.TextColor3 = Color3.fromRGB(255, 255, 255)
+BiggusDickus.TextSize = 10.000
+
+Attach.Name = "Attach"
+Attach.Parent = Executor_2
+Attach.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Attach.BorderSizePixel = 0
+Attach.Position = UDim2.new(0.784543455, 0, 0.861224473, 0)
+Attach.Size = UDim2.new(0, 84, 0, 26)
+Attach.Font = Enum.Font.GothamBold
+Attach.Text = "Attach"
+Attach.TextColor3 = Color3.fromRGB(255, 255, 255)
+Attach.TextSize = 14.000
+
+Status.Name = "Status"
+Status.Parent = Executor_2
+Status.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Status.BackgroundTransparency = 1.000
+Status.Position = UDim2.new(0.576112449, 0, 0.0204080399, 0)
+Status.Size = UDim2.new(0, 174, 0, 18)
+Status.Font = Enum.Font.GothamBold
+Status.Text = "Status: Not Attached"
+Status.TextColor3 = Color3.fromRGB(255, 255, 255)
+Status.TextSize = 14.000
+Status.TextWrapped = true
+
+-- Scripts:
+local function FDWNC_fake_script() -- ExecButton.execute 
+	local script = Instance.new('LocalScript', ExecButton)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor.Executor
+	
+	function execute()
+		if ExecuteBox.Text == "extendo()" then
+			AncientWare("Extendo")
+		elseif ExecuteBox.Text == "flyingextendo()" then
+			AncientWare("Flying Extendo")
+		elseif ExecuteBox.Text == "reanimate()" then
+			AncientWare("Reanimation")
+		elseif ExecuteBox.Text == "amogus()" then
+			AncientWare("Amongus")
+		elseif ExecuteBox.Text == "ogre()" then
+			AncientWare("Baby Ogre")
+		elseif ExecuteBox.Text == "bob()" then
+			AncientWare("Bob")
+		elseif ExecuteBox.Text == "hoverboard()" then
+			AncientWare("HoverBoard")
+		elseif ExecuteBox.Text == "sniper()" then
+			AncientWare("Sniper")
+		elseif ExecuteBox.Text == "katana()" then
+			AncientWare("Katana")
+		elseif ExecuteBox.Text == "killbot()" then
+			AncientWare("KillBot")
+		elseif ExecuteBox.Text == "mech()" then
+			AncientWare("Mech")
+		elseif ExecuteBox.Text == "mecharm()" then
+			AncientWare("MechArm")
+		elseif ExecuteBox.Text == "stand()" then
+			AncientWare("Stando")
+		elseif ExecuteBox.Text == "angel()" then
+			AncientWare("Fallen Angel")
+		elseif ExecuteBox.Text == "spider()" then
+			AncientWare("Spider")
+		elseif ExecuteBox.Text == "car()" then
+			AncientWare("Car")
+		elseif ExecuteBox.Text == "scythe()" then
+			AncientWare("Scythe")
+		elseif ExecuteBox.Text == "cock()" then
+			AncientWare("Dick")
+		else
+			print("no")
+		end
+	end
+	
+	button.MouseButton1Up:Connect(function()
+		execute()
+		task.wait(.5)
+	end)
+end
+coroutine.wrap(FDWNC_fake_script)()
+local function CBTMPZ_fake_script() -- CopyInv.Copy 
+	local script = Instance.new('LocalScript', CopyInv)
+
+	local button = script.Parent
+	
+	button.MouseButton1Up:Connect(function()
+		setclipboard("discord.gg/fenixhub")
+	end)
+end
+coroutine.wrap(CBTMPZ_fake_script)()
+local function LJYPHQ_fake_script() -- Clr.Clear 
+	local script = Instance.new('LocalScript', Clr)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = ""
+	end)
+end
+coroutine.wrap(LJYPHQ_fake_script)()
+local function DWWZVD_fake_script() -- Reanim.Execute 
+	local script = Instance.new('LocalScript', Reanim)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "reanimate()"
+	end)
+end
+coroutine.wrap(DWWZVD_fake_script)()
+local function KBPM_fake_script() -- Fextendo.Execute 
+	local script = Instance.new('LocalScript', Fextendo)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "flyingextendo()"
+	end)
+end
+coroutine.wrap(KBPM_fake_script)()
+local function GJAMEUY_fake_script() -- Sussy.Execute 
+	local script = Instance.new('LocalScript', Sussy)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "amogus()"
+	end)
+end
+coroutine.wrap(GJAMEUY_fake_script)()
+local function REXKPE_fake_script() -- Yourmom.Execute 
+	local script = Instance.new('LocalScript', Yourmom)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "yourmother()"
+		wait(.15)
+		ExecuteBox.Text = "ogre()"
+	end)
+end
+coroutine.wrap(REXKPE_fake_script)()
+local function HHDC_fake_script() -- Mech.Execute 
+	local script = Instance.new('LocalScript', Mech)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "mech()"
+	end)
+end
+coroutine.wrap(HHDC_fake_script)()
+local function HENAW_fake_script() -- Sniper.Execute 
+	local script = Instance.new('LocalScript', Sniper)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "sniper()"
+	end)
+end
+coroutine.wrap(HENAW_fake_script)()
+local function IQAWEZ_fake_script() -- Hoverboard.Execute 
+	local script = Instance.new('LocalScript', Hoverboard)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "hoverboard()"
+	end)
+end
+coroutine.wrap(IQAWEZ_fake_script)()
+local function AUPME_fake_script() -- KBot.Execute 
+	local script = Instance.new('LocalScript', KBot)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "killbot()"
+	end)
+end
+coroutine.wrap(AUPME_fake_script)()
+local function KHVBMD_fake_script() -- Stando.Execute 
+	local script = Instance.new('LocalScript', Stando)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "stando()"
+	end)
+end
+coroutine.wrap(KHVBMD_fake_script)()
+local function WNGVCR_fake_script() -- Extendo.Execute 
+	local script = Instance.new('LocalScript', Extendo)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "extendo()"
+	end)
+end
+coroutine.wrap(WNGVCR_fake_script)()
+local function IUHWPY_fake_script() -- Katana.Execute 
+	local script = Instance.new('LocalScript', Katana)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "katana()"
+	end)
+end
+coroutine.wrap(IUHWPY_fake_script)()
+local function LHVLYEE_fake_script() -- Bob.Execute 
+	local script = Instance.new('LocalScript', Bob)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "bob()"
+	end)
+end
+coroutine.wrap(LHVLYEE_fake_script)()
+local function VPXRXAD_fake_script() -- Car.Execute 
+	local script = Instance.new('LocalScript', Car)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "car()"
+	end)
+end
+coroutine.wrap(VPXRXAD_fake_script)()
+local function TYIRMVL_fake_script() -- MechArm.Execute 
+	local script = Instance.new('LocalScript', MechArm)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "mecharm()"
+	end)
+end
+coroutine.wrap(TYIRMVL_fake_script)()
+local function FTYK_fake_script() -- Spooder.Execute 
+	local script = Instance.new('LocalScript', Spooder)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "spider()"
+	end)
+end
+coroutine.wrap(FTYK_fake_script)()
+local function EDPXYQ_fake_script() -- Scythe.Execute 
+	local script = Instance.new('LocalScript', Scythe)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "scythe()"
+	end)
+end
+coroutine.wrap(EDPXYQ_fake_script)()
+local function XHQF_fake_script() -- FAngel.Execute 
+	local script = Instance.new('LocalScript', FAngel)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "cock()"
+	end)
+end
+coroutine.wrap(XHQF_fake_script)()
+local function HZFZ_fake_script() -- BiggusDickus.Execute 
+	local script = Instance.new('LocalScript', BiggusDickus)
+
+	local button = script.Parent
+	local ExecuteBox = button.Parent.Parent.Executor
+	
+	button.MouseButton1Up:Connect(function()
+		ExecuteBox.Text = "fallenangel()"
+	end)
+end
+coroutine.wrap(HZFZ_fake_script)()
+local function FZATDI_fake_script() -- Attach.Attach 
+	local script = Instance.new('LocalScript', Attach)
+
+	local button = script.Parent
+	local status = button.Parent.Status
+	
+	button.MouseButton1Up:Connect(function()
+		status.Text = "Status: Attaching.."
+		wait(math.random(1,3))
+		status.Text = "Status: Checking Whitelist.."
+		wait(math.random(1,4))
+		status.Text = "Status: Scanning.."
+		wait(math.random(1,2))
+		status.Text = "Status: Attached!"
+	end)
+end
+coroutine.wrap(FZATDI_fake_script)()
+local function DVAZJH_fake_script() -- Executor.LocalScript 
+	local script = Instance.new('LocalScript', Executor)
+
+	function dragify(Frame)
+		dragToggle = nil
+		dragSpeed = .15
+		dragInput = nil
+		dragStart = nil
+		dragPos = nil
+	
+		function updateInput(input)
+			Delta = input.Position - dragStart
+			Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+			game:GetService("TweenService"):Create(Frame, TweenInfo.new(.25), {Position = Position}):Play()
+		end
+	
+		Frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+				dragToggle = true
+				dragStart = input.Position
+				startPos = Frame.Position
+				input.Changed:Connect(function()
+					if (input.UserInputState == Enum.UserInputState.End) then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+	
+		Frame.InputChanged:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+				dragInput = input
+			end
+		end)
+	
+		game:GetService("UserInputService").InputChanged:Connect(function(input)
+			if (input == dragInput and dragToggle) then
+				updateInput(input)
+			end
+		end)
+	end
+	
+	dragify(script.Parent.DragThing)
+end
+coroutine.wrap(DVAZJH_fake_script)()
