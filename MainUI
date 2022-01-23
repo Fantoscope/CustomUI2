@@ -629,7 +629,7 @@ local function XHQF_fake_script() -- FAngel.Execute
 	local ExecuteBox = button.Parent.Parent.Executor
 	
 	button.MouseButton1Up:Connect(function()
-		ExecuteBox.Text = "cock()"
+		ExecuteBox.Text = "fallenangel()"
 	end)
 end
 coroutine.wrap(XHQF_fake_script)()
@@ -640,7 +640,7 @@ local function HZFZ_fake_script() -- BiggusDickus.Execute
 	local ExecuteBox = button.Parent.Parent.Executor
 	
 	button.MouseButton1Up:Connect(function()
-		ExecuteBox.Text = "fallenangel()"
+		ExecuteBox.Text = "cock()"
 	end)
 end
 coroutine.wrap(HZFZ_fake_script)()
